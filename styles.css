@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#map {
+    height: 50vh;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+#story {
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lake-section {
+    margin-bottom: 40px;
+}
+
+.lake-section img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    margin-top: 10px;
+}
+
+.lake-section h2 {
+    cursor: pointer;
+    color: #0077cc;
+}
+
+.lake-section h2:hover {
+    text-decoration: underline;
+}
